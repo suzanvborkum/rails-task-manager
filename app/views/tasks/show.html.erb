@@ -1,7 +1,7 @@
 <div class="container">
 
   <h2><%= @task.title %></h2>
-  <p><%= @task.details %></p>
+  <p class="details"><%= @task.details %></p>
 
   <%= link_to "Delete #{@task.title}",
               task_path(@task),
